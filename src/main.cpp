@@ -60,6 +60,7 @@ void autonomous(void) {
 
 void usercontrol(void) {
   runDriver();
+  
 }
 
 //
@@ -67,7 +68,7 @@ void usercontrol(void) {
 //
 int main() {
   pre_auton();
-  
+
   exampleAuton();//delete this line if using controller.
   // Set up callbacks for autonomous and driver control periods.
   Competition.autonomous(autonomous);
