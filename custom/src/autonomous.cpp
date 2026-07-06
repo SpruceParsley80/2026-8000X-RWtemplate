@@ -19,7 +19,7 @@ stopChassis();
   //turnToPoint is annoying me. It spins randomly I will fix tomorrow prob I tried some stuff that kinda worked but dont want to commit it rn.
  // turnToPoint(10,10,1,2000);
 }
-
+//yes
 void exampleAuton2() {
   moveToPoint(24, 24, 1, 2000, false);
   moveToPoint(48, 48, 1, 2000, true);
