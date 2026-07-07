@@ -14,7 +14,9 @@
 
 void exampleAuton() {
   // Use this for tuning linear and turn pid
-  boomerang(20,20,1,0,.2,5000,true,12);
+
+  //X AND Y IS SWAPPPED GGGRRRR
+  moveToPoint(0,10,1,1000,true);
 stopChassis();
   //turnToPoint is annoying me. It spins randomly I will fix tomorrow prob I tried some stuff that kinda worked but dont want to commit it rn.
  // turnToPoint(10,10,1,2000);

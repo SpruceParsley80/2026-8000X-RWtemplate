@@ -79,6 +79,8 @@ int main() {
 
   // Prevent main from exiting with an infinite loop.
   while (true) {
+      Brain.Screen.printAt(10, 20, "x=%.2f y=%.2f ang=%.2f", x_pos, y_pos, getInertialHeading());
+
     wait(100, msec);
   }
 }

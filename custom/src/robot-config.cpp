@@ -69,13 +69,13 @@ double distance_between_wheels = 11.3;
 
 // motor to wheel gear ratio * wheel diameter (in inches) * pi
 //also not fully sure if ts is right but its what we had in jar last year
-double wheel_distance_in = (.75) * 2.5 * M_PI;
+double wheel_distance_in = (.75) * 2.75 * M_PI;
 //  FOR THE FUTURE USE FRACTION FORM: I AM STUPID AND THE PUSHBACK CHASSIS IS ANNOYING SO IDK THE FRAC so I USE DECIMAL BUT MAKE SURE TO FIND THE FRACTION FOR THE OVERRIDE ONE like ts --> double wheel_distance_in = (36.0 / 48.0) * 2.5 * M_PI;
 // PID Constants for movement
 // distance_* : Linear PID for straight driving
 // turn_*     : PID for turning in place
 // heading_correction_* : PID for heading correction during linear movement
-double distance_kp = 1.1, distance_ki = 0.1, distance_kd = 7;
+double distance_kp = 1.1, distance_ki = 0.1, distance_kd = 6.7;
 double turn_kp = 0.3, turn_ki = 0, turn_kd = 2.5;
 double heading_correction_kp = 0.6, heading_correction_ki = 0, heading_correction_kd = 4;
 
